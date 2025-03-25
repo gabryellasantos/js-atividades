@@ -45,10 +45,12 @@ function pedraPapelTesoura() {
 
 //questão 3
 //calculadora básica
+function calculadora() {
 let numero = parseInt(prompt("Digite um número:"))
 
 for (let i = 1; i <= 10; i++) {
      console.log(numero + " x " + i + " = " + (numero * i))
+    }
 }
 
 //questão 4
